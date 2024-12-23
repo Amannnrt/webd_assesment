@@ -1,0 +1,140 @@
+html, body {
+    height: 100%; /* Set height to 100% to allow scrolling */
+    margin: 0; /* Remove default margin */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.container {
+  width: 100vw;    
+  min-height: 100vh;  /* Set the container to take full height */
+  background-color: #26354f;
+  padding: 20px; /* Add some padding to avoid content sticking to edges */
+}
+
+.divfirst {
+    display: flex;
+    gap: 30px;
+}
+
+.texttop {
+    color: azure;
+    font-family: cursive;
+    margin-left: 10px;
+    font-size: 20pt;
+    font-weight: 100;
+}
+
+.sidetexttop {
+    font-size: 10pt;
+    font-family: cursive;
+    font-weight: 20;
+    color: aliceblue;
+    position: relative;
+    top: 10px;
+    left: 70%;
+}
+
+.instagramlogo {
+    width: 40px; 
+    height: 40px;
+    position: relative;
+    margin-left: 70%;
+    margin-top: 10px;
+}
+
+.tagline {
+    font-family: cursive;
+    color: beige;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-weight: 80;
+}
+
+.secondarytagline {
+    font-family: cursive;
+    color: beige;
+    margin-left: 30px;
+    font-weight: 80;
+    margin-top: -30px;
+    font-size: 25px;
+}
+
+.tagline, .secondarytagline {
+    line-height: 1.1;
+}
+
+.btn1 {
+    background-color: #26354f;
+    color: white; 
+    padding: 15px 32px; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 2px; 
+    cursor: pointer; 
+    border-radius: 30px; 
+    transition: background-color 0.3s ease; 
+    opacity: .50;
+    position: relative;
+    top: 25px;
+    left: 2%;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.btn1:hover {
+    background-color: #9107b0;  
+}
+
+.btn1:last-child {
+    margin-right: 0; 
+}
+
+.png1s {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px; /* Add some space between buttons and images */
+}
+
+.icecreameating1, .icecreameating2 {
+    width: 300px; 
+    height: 400px;
+    margin: 10px;
+}
+
+.icecreameating1 {
+    /* Removed fixed positioning */
+    margin-left: 70%;
+}
+
+.icecreameating2 {
+    /* Removed fixed positioning */
+    margin-left: 10px;
+}
+
+
+.divfourth{
+    height: 400px;
+    width: 100%;
+    background-color: #2d435e;
+    margin: 0;
+    overflow-y: auto;
+    opacity: 0.5;
+}
+
+.tagline2{
+    font-family: cursive;
+    font-size: 15px;
+    margin-left: 20px;
+    color: aliceblue;
+   
+}
+
+.divfourthinside{
+    display: flex
+}
+.para1{
+    font-size: 20px;
+}
